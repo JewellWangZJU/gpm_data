@@ -1,0 +1,23 @@
+# 忽略认证文件 (绝对不能上传!!!)
+.netrc
+.urs_cookies
+*.key
+*.json
+
+# 忽略下载的数据文件 (太大，传不上去且没必要)
+*.HDF5
+*.nc4
+*.tmp
+
+# 忽略日志文件
+*.log
+*.txt
+task.progress
+
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+
+# 忽略 IDE 配置
+.vscode/
+.idea/
